@@ -116,6 +116,10 @@ dlq list shows {"id":"job_fail_test","cmd":"false","err":"exit 1"}
 Retry from DLQ
 
 py -m src.queuectl dlq retry job_fail_test
+
+DEMO
+[ https://drive.google.com/your-demo-link](https://drive.google.com/file/d/1PDspkk6B1prxCNiXzg7p94MPGcuebka4/view?usp=drive_link)
+
 Conclusion
 
 QueueCTL delivers a minimal, production-ready job queue system with persistence, retries, DLQ handling, and a clean CLI.
